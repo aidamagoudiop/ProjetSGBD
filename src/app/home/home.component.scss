@@ -1,0 +1,196 @@
+
+body{
+    // background-color: white;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-image: url(image.png);
+    height: 100%;
+    // width: 100vw;
+    // height: 700px;
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+section{
+    padding: -40px ;
+}
+
+
+.en-tete{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-top: -25px;
+}
+.en-tete .ecoleEtLogo{
+    display: flex;
+    width: 50%;
+    margin-left: -10px;
+    
+}
+.en-tete img{
+    margin-left: -94px;
+    margin-top: 25px;
+    width: 23%;
+    height: 100%;
+}
+ .en-tete .ecoleEtLogo p{
+    margin-top: 43px;
+    margin-left: -90px;
+    width: 465px;
+    height: 30px;
+    font-size: 1.4em;
+    
+} 
+
+
+
+.en-tete #button{
+    display: flex;
+    margin-left: 700px;
+    margin-right: 60px;
+    padding: 2px 0 7px 15px;
+    margin-top: 47px;
+    width: 17%;
+    height: 20px;
+    font-size: 1.1em;
+    color:white ;
+    border: 3px solid rgb(146, 59, 59) ;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    background-image: linear-gradient(to right, #314755, rgba(73, 156, 14, 0.627), #314755);
+}
+.en-tete #button:hover{ 
+    background-position: right;
+    // margin: 15px;
+    // padding: 7px  ;
+    margin-left: 700px;
+    padding: 8px 0 25px 23px;
+    width: 18%;
+    height: 7px;
+    transition: 0.2s;
+    border: 3px solid rgb(156, 18, 18);
+}
+
+
+
+.partie_bleue{
+    width: 90%;
+    height: 250px;
+    background-color: rgba(73, 156, 14, 0.627);
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+
+.partie_bleue p{  
+    color: white;
+    font-size: 2.6em;
+    margin-top: 47px;
+    
+}
+
+.partie1 p{  
+    color: white;
+    margin-top: -50px;
+    margin-left: 170px;
+    // padding: 30px;
+    letter-spacing: 1px;
+}
+.partie1 {  
+    color: white;
+    width: 440px;
+    margin-left: 250px;
+    font-size: 1.1em;
+    letter-spacing: 1.1px;
+}
+
+
+.contenu{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.contenu .box{
+    border: 0.1px solid rgb(80, 79, 79);
+    border-radius: 5px;
+    margin: 18px;
+    padding: 20px;
+    font-size: 1.1em;
+    box-shadow: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+    overflow: hidden;
+}
+.contenu .box .Role{
+    background-color: rgba(73, 156, 14, 0.627);
+    margin:-35px;
+    padding: 40px;
+}
+.contenu .box .Role1{
+    background-color: rgba(73, 156, 14, 0.627);
+    margin:-31px;
+    padding: 0.010px ;
+}
+.contenu .box .text{
+    margin-top: 20px;
+    margin: 20px 10px;
+    padding: 5px;
+    margin-left: 1px;
+    
+}
+.contenu .box h3{
+    font-size: 1.2em;
+    color: whitesmoke;
+}
+.contenu .box p{
+    margin-top: 40px;
+    width: 100%;
+    margin: 30px 5px 7px ;
+    font-size: 1.1em;
+
+}
+
+
+#button{
+    margin: 5px;
+    padding: 5px 7px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, #5e676c, rgba(73, 156, 14, 0.627), #314755);
+    border-radius: 8px;
+    box-shadow: 5px 7px 20px rgba(0,0,0,0.05);
+    color:white;
+    margin-top: 5px;
+}
+#button:hover{
+    margin: 15px;
+    padding: 7px  ;
+    font-size: 15px;
+    transition: 0.2s;
+    border: 3px solid rgb(156, 18, 18);
+    background-image: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 5px 7px 20px rgba(0,0,0,0.05);
+    color:white;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
