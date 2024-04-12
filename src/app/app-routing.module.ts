@@ -3,6 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { AccueilComponent } from './accueil/accueil.component';
+import { DashoardEtudiantComponent } from './dashoard-etudiant/dashoard-etudiant.component';
+import { DashoardEnseignantComponent } from './dashoard-enseignant/dashoard-enseignant.component';
+
 
 const routes: Routes = [
   {
@@ -16,6 +19,14 @@ const routes: Routes = [
   {
     path: 'login', 
     component: LoginComponent
+  },
+  {
+    path: 'dashboard-etudiant', 
+    component: DashoardEtudiantComponent
+  },
+  {
+    path: 'dashboard-enseignant', 
+    component: DashoardEnseignantComponent
   }
 
 ];

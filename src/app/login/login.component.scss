@@ -1,4 +1,12 @@
+
 .forme-nav{
+
+
+
+    color: rgba(18, 79, 125, 0.823);
+
+
+
     width: 100%;
     display: flex;
     // background-color: black;
@@ -10,10 +18,11 @@
 }
 .contenu-nav p{
    text-align: center;
-   color:rgb(73, 156, 14);  
-   font-size: 2em;
+//    color:rgba(21, 77, 155, 0.808);  
+   color: whitesmoke;
+    font-size: 2em;
    font-weight: 700;
-   margin-left: 250px;
+   margin-left:50px;
    margin-top: 100px;
 }
 body{
@@ -21,15 +30,33 @@ body{
     margin: 0;
     top: 0;
     margin-top: 0;
-    margin-top: 0px;
+    margin-top: -100px;
     // margin-top: -120px;
     width: 100vw;
     height: 700px;
-    // background-image: url(image.png);
+    background-image: url(image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+.formulaire{
+    background-color: rgba(45, 100, 135, 0.533);
+    // background: transparent;
+    width: 60%;
+    min-height: 20vh;
+    height: 600px;
+    margin-left: 250px; 
+    padding-top: 50px;
+    
+    // padding: 100px 10px 10px;
+    // margin: -30px 200px 200px;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    box-shadow: 2px 3px 60px 2px rgba(246, 243, 243, 0.98);
 
+    
+}
 
 .container{
     width: 100%;
@@ -42,7 +69,7 @@ body{
     // background-color: black;
 }
 .container h1{
-    color: rgb(73, 156, 14);
+    color: whitesmoke;
     font-size: 2.4em;
     
 }
@@ -55,22 +82,26 @@ body{
 }
 
 input{
-    width: 50%;
+    width: 70%;
     margin: 7px auto;
     padding:15px;
     border-radius: 60px;
     outline: none;
     border: none;
-    background: black;
-    box-shadow: 2px 3px 30px 2px rgba(125, 125, 125, 0.2);
+    font-size: 1.1em;
     color: white;
+    background: rgba(163, 162, 162, 0.628);
+    box-shadow: 2px 3px 30px 2px rgba(245, 245, 245, 0.662);
+    // color: rgba(142, 29, 29, 0.89);
     border: 0.3px solid rgb(75, 63, 65);
 }
 
 
 .btn-all{
-    background:rgb(73, 156, 14);
+    background:rgba(245, 245, 245, 0.632);
+    border: 2px solid rgb(75, 63, 65);
     color: black;
+    font-weight: 600;
     // width: 50%;
     margin: 2rem auto;
     display: flex;
@@ -84,9 +115,12 @@ input{
 }
 
 .btn-all:hover{
-    background: rgba(131, 121, 189, 0.2);
+    background: rgba(248, 247, 250, 0.099);
     cursor: pointer;
-    color: white;
+    width: 35%;
+    color:black;
+    border: 2px solid rgb(255, 248, 249);
+
 
 }
 

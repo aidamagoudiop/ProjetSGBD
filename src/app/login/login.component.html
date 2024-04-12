@@ -1,35 +1,39 @@
 <html>
 <body>
-    <div class="forme-nav">
+    <div class="formulaire">
 
-        <div class="contenu-nav">
-            <!-- <div (click)="redirecTo('login')" class="btn-all"> -->
-            <!-- <div class="btn-all">
-                Connexion
-            </div> -->
-            <p>Bienvenue dans notre plateforme, Veuillez Vous Connecter !</p>
-        </div>
-    </div>
+        <div class="forme-nav">
 
-
-
-    <div class="container">
-        <h1>Se connecter</h1>
-        <div class="login-content">
-
-            <!-- [(ngModel)]="email" > -->
-            <!-- [(ngModel)]="password"> -->
-
-            <input type="text" 
-            #numero_telephone name="numero_telephone" placeholder="Numero de telephone">
-            <input type="password" id="mdp" name="mdp" placeholder="Mot De Pass">
-
-            <!-- <div (click)="redirecToHome()" class="btn-all"> -->
-            <div class="btn-all" (click)="redirecToInterfaceAdmin()">
-                CONNEXION
+            <div class="contenu-nav">
+                <!-- <div (click)="redirecTo('login')" class="btn-all"> -->
+                <!-- <div class="btn-all">
+                    Connexion
+                </div> -->
+                <p>Bienvenue dans la plateforme, Veuillez Vous Connecter !</p>
             </div>
         </div>
-    </div> 
+
+
+
+        <div class="container">
+            <h1>Se connecter</h1>
+            <div class="login-content">
+
+                <!-- [(ngModel)]="email" > -->
+                <!-- [(ngModel)]="password"> -->
+
+                <input type="text" 
+                #numero_telephone name="numero_telephone" placeholder="Numero de telephone">
+                <input type="password" id="mdp" name="mdp" placeholder="Mot De Pass">
+
+                <!-- <div (click)="redirecToHome()" class="btn-all"> -->
+                <div class="btn-all" (click)="redirecToInterfaceAdmin()">
+                    CONNEXION
+                </div>
+            </div>
+        </div> 
+
+    </div>
 </body>
 
 
